@@ -1,0 +1,97 @@
+.find-in-document-container{
+  background-color: #FFF;
+  box-shadow: 2px 2px 5px 2px #ccc;
+  padding: 5px;
+  position: fixed;
+  right: 0;
+  width: auto;
+  z-index: 9999;
+}
+.txt-found-in-search{
+  background-color: #ff0;
+}
+
+body { 
+  background:#FFFFFF; 
+  font-size:1.25ex; 
+  font-family:arial,helvetica,freesans,sans-serif; 
+  margin:5px 0px 5px 5px; 
+} 
+html>body { 
+  background:#FFFFFF; 
+  font:x-small arial,helvetica,freesans,sans-serif; 
+  margin:5px 0px 5px 5px; 
+  padding:0; 
+} 
+a { 
+  text-decoration:none; 
+  display:block; 
+  color:#000000; 
+  font-weight:normal; 
+  font-family:arial,freesans,helvetica,sans-serif; 
+} 
+* { 
+  padding:0; 
+  margin:0; 
+} 
+#menu { 
+  width:14.2em; 
+  border-top:1px solid red; 
+  background-color:#CCCCCC; 
+position:absolute; 
+  top:0; 
+  left:0; 
+  font-family:verdana,arial,freesans,helvetica; 
+} 
+#menu ul { 
+  background-color:#CCCCCC; /*Cor de background*/ 
+} 
+#menu ul li { 
+  border-bottom:1px solid #333333; /*Cor da borda*/ 
+  list-style:none; 
+_height:2em; 
+} 
+#menu ul li a { 
+  color:#000000; /*Cor do Texto*/ 
+  height:1%; 
+  padding:0.3em 0.5em; 
+  font-family:verdana,arial,freesans,helvetica;	 
+} 
+#menu ul li a { 
+  padding:0.4em 0.5em; 
+} 
+#menu ul li a:hover { 
+  background-color:#666666; /*Cor de Fundo quando selecionado*/ 
+  
+}  
+#menu dl { 
+  margin:1em 0 0.5em 1em; 
+  padding-bottom:1px; 
+  font-family:arial; 
+} 
+#menu dl dd.diff { 
+  background:transparent; 
+  padding-left:0px; 
+} 
+#menu .rel { 
+  height:1.7em; 
+  padding-top:0.4em; 
+} 
+#menu .e, #menu .d { 
+   display:inline;
+}
+
+div.box {
+	height: 100px; 
+	width: 320px;
+	display: inline-block;
+}
+
+#style1 { 
+  font-family: Consolas; 
+  font-size: 50px; 
+  font-weight: bold; 
+  color: #000000;
+  text-align: center; 
+} 
+/* Mário Pina*/         
